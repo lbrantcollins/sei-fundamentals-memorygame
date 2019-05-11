@@ -1,2 +1,2 @@
 # sei-fundamentals-memorygame
-SEI Pre-Work Unit 2 Project: Memory Game
+SEI Pre-Work Project: Memory Game
