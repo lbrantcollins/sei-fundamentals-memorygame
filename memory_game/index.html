@@ -3,6 +3,7 @@
 <head>
 	<meta charset="UTF-8">
 	<title>Memory Card Game</title>
+	<link rel="stylesheet" type="text/css" href="css/reset.css">
 	<link href="https://fonts.googleapis.com/css?family=Droid+Serif|Raleway:400,500,600,700" rel="stylesheet">
 	<link rel="stylesheet" type="text/css" href="css/style.css"/>
 </head>
@@ -12,17 +13,17 @@
 	</header>
 
 	<nav>
-		<a class="main-link" href=#>Instructions</a>
-		<a class="main-link" href=#>Game</a>
+		<a class="main-link" href="#instructions">Instructions</a>
+		<a class="main-link" href="#game">Game</a>
 	</nav>
 
 	<main>
-		<h2>Instructions</h2>
+		<h2 id="instructions">Instructions</h2>
 
 		<p>Concentration, also known as Match Match, Memory, Pelmanism, Shinkei-suijaku, Pexeso or simply Pairs, is a card game in which all of the cards are laid face down on a surface and two cards are flipped face up over each turn. The object of the game is to turn over pairs of matching cards.
 		</p>
 
-		<div>
+		<div id="game">
 			<img src="images/queen-of-diamonds.png" alt="Queen of Diamonds">
 			<img src="images/queen-of-hearts.png" alt="Queen of Hearts">
 			<img src="images/king-of-diamonds.png" alt="King of Diamonds">
@@ -32,7 +33,10 @@
 		<p>Challenge yourself!  Enjoy!</p>
 	</main>
 
-	<footer>My <a href="https://www.linkedin.com/in/linda-collins/">LinkedIn</a> Page</footer>
+	<footer class="clearfix">
+	<p class="copyright">&copy; 2019</p>
+	<p class="message">Created with &hearts; by <span class = "name">GA</span></p>
+</footer>
 
 	
 </body>
